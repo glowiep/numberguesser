@@ -1,6 +1,6 @@
 body {
   background: #35dc9b;
-  background: linear-gradient(to bottom, #35dc9b, #3857af);
+  background: linear-gradient(to bottom, #e16ced, #3857af);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ body {
 h1 {
   margin: 0 auto 10px;
   color: #ffffff;
-  font: 40px Helvetica;
+  font: 50px Helvetica;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -25,6 +25,7 @@ h1 {
 p {
   color: #b9ff7b;
   font: 22px Helvetica;
+  line-height: 150%;
 }
 
 label {
@@ -99,3 +100,9 @@ input[type="submit"] {
   line-height: 150%;
 }
 
+#footer {
+  text-align: center;
+	margin-top:5px;
+	font-size: 90%;
+	font-style: italic;
+}
