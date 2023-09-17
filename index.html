@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Number Guessing Game</title>
+
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+
+<body>
+  <h1>Guess the Number</h1>
+  <p>
+    We have selected a random number between 1 - 100. <br>See if you can guess it!
+  </p>
+
+  <div class = "form">
+
+    <label>
+      <input id="guessField" type="text" 
+      class="guessField" placeholder="Enter a guess">
+      <span>Enter a guess</span>
+    </label>
+
+    <div id="statusArea"></div>
+
+    <input id="submitGuess" type="submit" value="Submit guess"
+      class="guessSubmit" onclick="submitted()">
+
+    <input type="submit" value="Get New Number" class="custom-btn btn-5"
+      onclick="refreshNumber()"></input>
+    
+    
+    
+  </div>
+
+  <script src="numberGuesser.js"></script>
+</body>
+
+</html>
