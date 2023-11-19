@@ -17,7 +17,7 @@ A few learnings along the way:<br>
   </li>
 </ul>
 
-<a href="https://glowiep.github.io/numberguesser">Check out my number guesser in the browser.</a>
+<a href="https://glowiep.github.io/numberguesser" target="_blank">Check out my number guesser in the browser.</a>
 
 Sources:<br>
 [1] <a href="https://codepen.io/lukeandrewreid/full/OVPGXN" target="_blank">CodePen by Luke Reid</a> <br>
