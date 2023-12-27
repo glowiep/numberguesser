@@ -26,6 +26,7 @@ p {
   color: #b9ff7b;
   font: 22px Helvetica;
   line-height: 150%;
+  text-align: center;  
 }
 
 label {
@@ -106,3 +107,44 @@ input[type="submit"] {
 	font-size: 90%;
 	font-style: italic;
 }
+
+ /* Smartphones (portrait and landscape) */
+ @media only screen 
+ and (min-device-width : 320px) 
+ and (max-device-width : 480px) {
+  h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 40px;
+  }
+
+  div.form {
+    width: 400px;
+  }
+
+  #footer {
+    position: relative;
+    font-size: 25px;
+  }
+
+  input {
+    height: 120px;
+    width: 400px;
+    font-size: 40px;
+  }
+
+  input[type="submit"] {
+    font-size: 40px;
+  }
+
+  input[type="text" i] {
+    font-size: 40px;
+  }
+  
+  span {
+    font-size: 25px;
+  }
+ } 
