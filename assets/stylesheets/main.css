@@ -112,6 +112,10 @@ input[type="submit"] {
  @media only screen 
  and (min-device-width : 320px) 
  and (max-device-width : 480px) {
+  body {
+    overflow: scroll;
+    min-height: 320px;
+  }
   h1 {
     font-size: 70px;
     text-align: center;
@@ -146,5 +150,9 @@ input[type="submit"] {
   
   span {
     font-size: 25px;
+  }
+
+  #statusArea {
+    font-size: 30px;
   }
  } 

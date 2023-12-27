@@ -14,7 +14,7 @@ function submitted(){
   let guess = Number(document.getElementById("guessField").value);
     if (guess === randomNum) {
       outputMessage("statusArea", `You got it! You took <b>${attempts} attempts</b>! <br>Click on <b>\"Get New Number\"</b> to play again.`);
-      document.getElementById("guessField").value = "You GOT IT! Play again?";
+      document.getElementById("guessField").value = "You GOT IT!";
       attempts = 0;
     }
     else if (guess > randomNum) {
